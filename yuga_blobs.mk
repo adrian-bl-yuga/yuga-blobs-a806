@@ -1,10 +1,25 @@
 PRODUCT_COPY_FILES += \
+    vendor/sony/yuga_blobs/system/etc/firmware/apps.mbn:system/etc/firmware/apps.mbn \
+    vendor/sony/yuga_blobs/system/etc/firmware/efs1.mbn:system/etc/firmware/efs1.mbn \
+    vendor/sony/yuga_blobs/system/etc/firmware/efs2.mbn:system/etc/firmware/efs2.mbn \
+    vendor/sony/yuga_blobs/system/etc/firmware/efs3.mbn:system/etc/firmware/efs3.mbn \
+    vendor/sony/yuga_blobs/system/etc/firmware/q6.b00:system/etc/firmware/q6.b00 \
+    vendor/sony/yuga_blobs/system/etc/firmware/q6.b01:system/etc/firmware/q6.b01 \
+    vendor/sony/yuga_blobs/system/etc/firmware/q6.b03:system/etc/firmware/q6.b03 \
+    vendor/sony/yuga_blobs/system/etc/firmware/q6.b04:system/etc/firmware/q6.b04 \
+    vendor/sony/yuga_blobs/system/etc/firmware/q6.b05:system/etc/firmware/q6.b05 \
+    vendor/sony/yuga_blobs/system/etc/firmware/q6.b06:system/etc/firmware/q6.b06 \
+    vendor/sony/yuga_blobs/system/etc/firmware/q6.mdt:system/etc/firmware/q6.mdt \
+    vendor/sony/yuga_blobs/system/etc/firmware/rpm.mbn:system/etc/firmware/rpm.mbn \
+    vendor/sony/yuga_blobs/system/etc/firmware/sbl1.mbn:system/etc/firmware/sbl1.mbn \
+    vendor/sony/yuga_blobs/system/etc/firmware/sbl2.mbn:system/etc/firmware/sbl2.mbn \
     vendor/sony/yuga_blobs/system/etc/thermald.conf:system/etc/thermald.conf \
     vendor/sony/yuga_blobs/system/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/sony/yuga_blobs/system/lib/hw/camera.sony.so:system/lib/hw/camera.sony.so \
     vendor/sony/yuga_blobs/system/lib/hw/copybit.msm8960.so:system/lib/hw/copybit.msm8960.so \
     vendor/sony/yuga_blobs/system/lib/hw/gralloc.msm8960.so:system/lib/hw/gralloc.msm8960.so \
     vendor/sony/yuga_blobs/system/lib/hw/hwcomposer.msm8960.so:system/lib/hw/hwcomposer.msm8960.so \
+    vendor/sony/yuga_blobs/system/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/yuga_blobs/system/lib/libcald_client.so:system/lib/libcald_client.so \
     vendor/sony/yuga_blobs/system/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/yuga_blobs/system/lib/libcald_imageutil.so:system/lib/libcald_imageutil.so \
@@ -22,8 +37,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     vendor/sony/yuga_blobs/system/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
     vendor/sony/yuga_blobs/system/lib/libmmcamera_imx091.so:system/lib/libmmcamera_imx091.so \
-    vendor/sony/yuga_blobs/system/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     vendor/sony/yuga_blobs/system/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/sony/yuga_blobs/system/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     vendor/sony/yuga_blobs/system/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
     vendor/sony/yuga_blobs/system/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/sony/yuga_blobs/system/lib/libmmcamera_tintless_algo.so:system/lib/libmmcamera_tintless_algo.so \
@@ -32,4 +47,27 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/yuga_blobs/system/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
     vendor/sony/yuga_blobs/system/lib/libqc-opt.so:system/lib/libqc-opt.so \
+    vendor/sony/yuga_blobs/system/vendor/camera/KMO08BN0_IMX111.dat:system/vendor/camera/KMO08BN0_IMX111.dat \
+    vendor/sony/yuga_blobs/system/vendor/camera/LGI02BN0.dat:system/vendor/camera/LGI02BN0.dat \
+    vendor/sony/yuga_blobs/system/vendor/camera/LGI02BN0_IMX132.dat:system/vendor/camera/LGI02BN0_IMX132.dat \
+    vendor/sony/yuga_blobs/system/vendor/camera/LGI08BN2_DW9714.dat:system/vendor/camera/LGI08BN2_DW9714.dat \
+    vendor/sony/yuga_blobs/system/vendor/camera/LGI08BN2_IMX111.dat:system/vendor/camera/LGI08BN2_IMX111.dat \
+    vendor/sony/yuga_blobs/system/vendor/camera/SEM02BN0.dat:system/vendor/camera/SEM02BN0.dat \
+    vendor/sony/yuga_blobs/system/vendor/camera/SEM02BN0_IMX132.dat:system/vendor/camera/SEM02BN0_IMX132.dat \
+    vendor/sony/yuga_blobs/system/vendor/camera/SEM13BS0.dat:system/vendor/camera/SEM13BS0.dat \
+    vendor/sony/yuga_blobs/system/vendor/camera/SEM13BS0_IMX135.dat:system/vendor/camera/SEM13BS0_IMX135.dat \
+    vendor/sony/yuga_blobs/system/vendor/camera/SEM13BS0_WV570.dat:system/vendor/camera/SEM13BS0_WV570.dat \
+    vendor/sony/yuga_blobs/system/vendor/camera/SEM13BS1.dat:system/vendor/camera/SEM13BS1.dat \
+    vendor/sony/yuga_blobs/system/vendor/camera/SEM13BS1_IMX135.dat:system/vendor/camera/SEM13BS1_IMX135.dat \
+    vendor/sony/yuga_blobs/system/vendor/camera/SEM13BS1_WV570.dat:system/vendor/camera/SEM13BS1_WV570.dat \
+    vendor/sony/yuga_blobs/system/vendor/camera/SOI08BN1_IMX111.dat:system/vendor/camera/SOI08BN1_IMX111.dat \
+    vendor/sony/yuga_blobs/system/vendor/camera/SOI13BS1.dat:system/vendor/camera/SOI13BS1.dat \
+    vendor/sony/yuga_blobs/system/vendor/camera/SOI13BS1_DW9735.dat:system/vendor/camera/SOI13BS1_DW9735.dat \
+    vendor/sony/yuga_blobs/system/vendor/camera/SOI13BS1_IMX135.dat:system/vendor/camera/SOI13BS1_IMX135.dat \
+    vendor/sony/yuga_blobs/system/vendor/camera/SOI13BS2.dat:system/vendor/camera/SOI13BS2.dat \
+    vendor/sony/yuga_blobs/system/vendor/camera/SOI13BS2_DW9735.dat:system/vendor/camera/SOI13BS2_DW9735.dat \
+    vendor/sony/yuga_blobs/system/vendor/camera/SOI13BS2_IMX135.dat:system/vendor/camera/SOI13BS2_IMX135.dat \
+    vendor/sony/yuga_blobs/system/vendor/camera/SOI13BS9.dat:system/vendor/camera/SOI13BS9.dat \
+    vendor/sony/yuga_blobs/system/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
+    vendor/sony/yuga_blobs/system/vendor/camera/product.dat:system/vendor/camera/product.dat \
 
