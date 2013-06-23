@@ -1,3 +1,35 @@
 PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/etc/thermald.conf:system/etc/thermald.conf \
+    vendor/sony/yuga_blobs/system/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+    vendor/sony/yuga_blobs/system/lib/hw/camera.sony.so:system/lib/hw/camera.sony.so \
+    vendor/sony/yuga_blobs/system/lib/hw/copybit.msm8960.so:system/lib/hw/copybit.msm8960.so \
+    vendor/sony/yuga_blobs/system/lib/hw/gralloc.msm8960.so:system/lib/hw/gralloc.msm8960.so \
+    vendor/sony/yuga_blobs/system/lib/hw/hwcomposer.msm8960.so:system/lib/hw/hwcomposer.msm8960.so \
+    vendor/sony/yuga_blobs/system/lib/libcald_client.so:system/lib/libcald_client.so \
+    vendor/sony/yuga_blobs/system/lib/libcald_hal.so:system/lib/libcald_hal.so \
+    vendor/sony/yuga_blobs/system/lib/libcald_imageutil.so:system/lib/libcald_imageutil.so \
+    vendor/sony/yuga_blobs/system/lib/libcald_pal.so:system/lib/libcald_pal.so \
+    vendor/sony/yuga_blobs/system/lib/libcald_server.so:system/lib/libcald_server.so \
+    vendor/sony/yuga_blobs/system/lib/libcald_util.so:system/lib/libcald_util.so \
+    vendor/sony/yuga_blobs/system/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
+    vendor/sony/yuga_blobs/system/lib/libface.so:system/lib/libface.so \
+    vendor/sony/yuga_blobs/system/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/sony/yuga_blobs/system/lib/libidd.so:system/lib/libidd.so \
+    vendor/sony/yuga_blobs/system/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
+    vendor/sony/yuga_blobs/system/lib/libmmcamera_3a_legacy.so:system/lib/libmmcamera_3a_legacy.so \
+    vendor/sony/yuga_blobs/system/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
+    vendor/sony/yuga_blobs/system/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
+    vendor/sony/yuga_blobs/system/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
+    vendor/sony/yuga_blobs/system/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
+    vendor/sony/yuga_blobs/system/lib/libmmcamera_imx091.so:system/lib/libmmcamera_imx091.so \
+    vendor/sony/yuga_blobs/system/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
+    vendor/sony/yuga_blobs/system/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/sony/yuga_blobs/system/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
+    vendor/sony/yuga_blobs/system/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
+    vendor/sony/yuga_blobs/system/lib/libmmcamera_tintless_algo.so:system/lib/libmmcamera_tintless_algo.so \
+    vendor/sony/yuga_blobs/system/lib/libmmcamera_tintless_wrapper.so:system/lib/libmmcamera_tintless_wrapper.so \
+    vendor/sony/yuga_blobs/system/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
+    vendor/sony/yuga_blobs/system/lib/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/sony/yuga_blobs/system/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
+    vendor/sony/yuga_blobs/system/lib/libqc-opt.so:system/lib/libqc-opt.so \
 
