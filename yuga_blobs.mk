@@ -1,4 +1,5 @@
 PRODUCT_COPY_FILES += \
+    vendor/sony/yuga_blobs/system/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/sony/yuga_blobs/system/etc/firmware/apps.mbn:system/etc/firmware/apps.mbn \
     vendor/sony/yuga_blobs/system/etc/firmware/efs1.mbn:system/etc/firmware/efs1.mbn \
     vendor/sony/yuga_blobs/system/etc/firmware/efs2.mbn:system/etc/firmware/efs2.mbn \
