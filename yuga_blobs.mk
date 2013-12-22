@@ -2,11 +2,16 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/bin/efsks:system/bin/efsks \
     vendor/sony/yuga_blobs/system/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/sony/yuga_blobs/system/bin/ks:system/bin/ks \
+    vendor/sony/yuga_blobs/system/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/yuga_blobs/system/bin/qcks:system/bin/qcks \
+    vendor/sony/yuga_blobs/system/bin/qmiproxy:system/bin/qmiproxy \
     vendor/sony/yuga_blobs/system/bin/qmuxd:system/bin/qmuxd \
+    vendor/sony/yuga_blobs/system/bin/qseecomd:system/bin/qseecomd \
+    vendor/sony/yuga_blobs/system/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/yuga_blobs/system/bin/ta2bin:system/bin/ta2bin \
     vendor/sony/yuga_blobs/system/bin/ta_param_loader:system/bin/ta_param_loader \
     vendor/sony/yuga_blobs/system/bin/ta_qmi_client:system/bin/ta_qmi_client \
+    vendor/sony/yuga_blobs/system/bin/tad_static:system/bin/tad_static \
     vendor/sony/yuga_blobs/system/bin/taimport:system/bin/taimport \
     vendor/sony/yuga_blobs/system/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/sony/yuga_blobs/system/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -90,6 +95,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/lib/hw/gralloc.msm8960.so:system/lib/hw/gralloc.msm8960.so \
     vendor/sony/yuga_blobs/system/lib/hw/hwcomposer.msm8960.so:system/lib/hw/hwcomposer.msm8960.so \
     vendor/sony/yuga_blobs/system/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
+    vendor/sony/yuga_blobs/system/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
+    vendor/sony/yuga_blobs/system/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/sony/yuga_blobs/system/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/sony/yuga_blobs/system/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/sony/yuga_blobs/system/lib/libexternal.so:system/lib/libexternal.so \
