@@ -9,13 +9,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/bin/qseecomd:system/bin/qseecomd \
     vendor/sony/yuga_blobs/system/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/yuga_blobs/system/bin/ta2bin:system/bin/ta2bin \
-    vendor/sony/yuga_blobs/system/bin/tad_static:system/bin/tad_static \
-    vendor/sony/yuga_blobs/system/bin/taimport:system/bin/taimport \
     vendor/sony/yuga_blobs/system/bin/ta_param_loader:system/bin/ta_param_loader \
     vendor/sony/yuga_blobs/system/bin/ta_qmi_client:system/bin/ta_qmi_client \
-    vendor/sony/yuga_blobs/system/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    vendor/sony/yuga_blobs/system/bin/tad_static:system/bin/tad_static \
+    vendor/sony/yuga_blobs/system/bin/taimport:system/bin/taimport \
     vendor/sony/yuga_blobs/system/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/sony/yuga_blobs/system/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+    vendor/sony/yuga_blobs/system/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/sony/yuga_blobs/system/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/sony/yuga_blobs/system/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/sony/yuga_blobs/system/etc/firmware/acdb.mbn:system/etc/firmware/acdb.mbn \
@@ -72,13 +72,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/etc/firmware/tzsuntory.b03:system/etc/firmware/tzsuntory.b03 \
     vendor/sony/yuga_blobs/system/etc/firmware/tzsuntory.flist:system/etc/firmware/tzsuntory.flist \
     vendor/sony/yuga_blobs/system/etc/firmware/tzsuntory.mdt:system/etc/firmware/tzsuntory.mdt \
-    vendor/sony/yuga_blobs/system/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     vendor/sony/yuga_blobs/system/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/sony/yuga_blobs/system/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
     vendor/sony/yuga_blobs/system/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
     vendor/sony/yuga_blobs/system/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
-    vendor/sony/yuga_blobs/system/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/sony/yuga_blobs/system/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
+    vendor/sony/yuga_blobs/system/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
+    vendor/sony/yuga_blobs/system/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/sony/yuga_blobs/system/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
     vendor/sony/yuga_blobs/system/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
     vendor/sony/yuga_blobs/system/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
@@ -95,9 +95,23 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/lib/hw/gralloc.msm8960.so:system/lib/hw/gralloc.msm8960.so \
     vendor/sony/yuga_blobs/system/lib/hw/hwcomposer.msm8960.so:system/lib/hw/hwcomposer.msm8960.so \
     vendor/sony/yuga_blobs/system/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
+    vendor/sony/yuga_blobs/system/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
+    vendor/sony/yuga_blobs/system/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
+    vendor/sony/yuga_blobs/system/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
+    vendor/sony/yuga_blobs/system/lib/libOmxAmrwbplusDec.so:system/lib/libOmxAmrwbplusDec.so \
+    vendor/sony/yuga_blobs/system/lib/libOmxCore.so:system/lib/libOmxCore.so \
+    vendor/sony/yuga_blobs/system/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
+    vendor/sony/yuga_blobs/system/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
+    vendor/sony/yuga_blobs/system/lib/libOmxMux.so:system/lib/libOmxMux.so \
+    vendor/sony/yuga_blobs/system/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
+    vendor/sony/yuga_blobs/system/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
+    vendor/sony/yuga_blobs/system/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
+    vendor/sony/yuga_blobs/system/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
+    vendor/sony/yuga_blobs/system/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/sony/yuga_blobs/system/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/yuga_blobs/system/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/yuga_blobs/system/lib/libcsd-client.so:system/lib/libcsd-client.so \
+    vendor/sony/yuga_blobs/system/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/sony/yuga_blobs/system/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/sony/yuga_blobs/system/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/sony/yuga_blobs/system/lib/libdsutils.so:system/lib/libdsutils.so \
@@ -112,26 +126,25 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/lib/liboverlay.so:system/lib/liboverlay.so \
     vendor/sony/yuga_blobs/system/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/yuga_blobs/system/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
+    vendor/sony/yuga_blobs/system/lib/libqdMetaData.so:system/lib/libqdMetaData.so \
     vendor/sony/yuga_blobs/system/lib/libqdi.so:system/lib/libqdi.so \
     vendor/sony/yuga_blobs/system/lib/libqdp.so:system/lib/libqdp.so \
     vendor/sony/yuga_blobs/system/lib/libqdutils.so:system/lib/libqdutils.so \
+    vendor/sony/yuga_blobs/system/lib/libqmi.so:system/lib/libqmi.so \
     vendor/sony/yuga_blobs/system/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/sony/yuga_blobs/system/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
     vendor/sony/yuga_blobs/system/lib/libqmiservices.so:system/lib/libqmiservices.so \
-    vendor/sony/yuga_blobs/system/lib/libqmi.so:system/lib/libqmi.so \
-    vendor/sony/yuga_blobs/system/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/sony/yuga_blobs/system/lib/libqservice.so:system/lib/libqservice.so \
     vendor/sony/yuga_blobs/system/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
+    vendor/sony/yuga_blobs/system/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/sony/yuga_blobs/system/lib/libta.so:system/lib/libta.so \
     vendor/sony/yuga_blobs/system/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
     vendor/sony/yuga_blobs/system/lib/libvirtual.so:system/lib/libvirtual.so \
-    vendor/sony/yuga_blobs/system/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
     vendor/sony/yuga_blobs/system/vendor/camera/KMO08BN0_IMX111.dat:system/vendor/camera/KMO08BN0_IMX111.dat \
     vendor/sony/yuga_blobs/system/vendor/camera/LGI02BN0.dat:system/vendor/camera/LGI02BN0.dat \
     vendor/sony/yuga_blobs/system/vendor/camera/LGI02BN0_IMX132.dat:system/vendor/camera/LGI02BN0_IMX132.dat \
     vendor/sony/yuga_blobs/system/vendor/camera/LGI08BN2_DW9714.dat:system/vendor/camera/LGI08BN2_DW9714.dat \
     vendor/sony/yuga_blobs/system/vendor/camera/LGI08BN2_IMX111.dat:system/vendor/camera/LGI08BN2_IMX111.dat \
-    vendor/sony/yuga_blobs/system/vendor/camera/product.dat:system/vendor/camera/product.dat \
     vendor/sony/yuga_blobs/system/vendor/camera/SEM02BN0.dat:system/vendor/camera/SEM02BN0.dat \
     vendor/sony/yuga_blobs/system/vendor/camera/SEM02BN0_IMX132.dat:system/vendor/camera/SEM02BN0_IMX132.dat \
     vendor/sony/yuga_blobs/system/vendor/camera/SEM13BS0.dat:system/vendor/camera/SEM13BS0.dat \
@@ -148,17 +161,19 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/vendor/camera/SOI13BS2_DW9735.dat:system/vendor/camera/SOI13BS2_DW9735.dat \
     vendor/sony/yuga_blobs/system/vendor/camera/SOI13BS2_IMX135.dat:system/vendor/camera/SOI13BS2_IMX135.dat \
     vendor/sony/yuga_blobs/system/vendor/camera/SOI13BS9.dat:system/vendor/camera/SOI13BS9.dat \
+    vendor/sony/yuga_blobs/system/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
+    vendor/sony/yuga_blobs/system/vendor/camera/product.dat:system/vendor/camera/product.dat \
     vendor/sony/yuga_blobs/system/vendor/firmware/libpn544_fw_c2.so:system/vendor/firmware/libpn544_fw_c2.so \
     vendor/sony/yuga_blobs/system/vendor/firmware/libpn544_fw_c3.so:system/vendor/firmware/libpn544_fw_c3.so \
     vendor/sony/yuga_blobs/system/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/sony/yuga_blobs/system/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/sony/yuga_blobs/system/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
-    vendor/sony/yuga_blobs/system/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/sony/yuga_blobs/system/vendor/lib/egl/libGLESv2S3D_adreno.so:system/vendor/lib/egl/libGLESv2S3D_adreno.so \
+    vendor/sony/yuga_blobs/system/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/sony/yuga_blobs/system/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/sony/yuga_blobs/system/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/sony/yuga_blobs/system/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/sony/yuga_blobs/system/vendor/lib/libc2d2_a3xx.so:system/vendor/lib/libc2d2_a3xx.so \
-    vendor/sony/yuga_blobs/system/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/sony/yuga_blobs/system/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
     vendor/sony/yuga_blobs/system/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/sony/yuga_blobs/system/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
