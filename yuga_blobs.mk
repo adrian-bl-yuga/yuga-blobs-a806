@@ -91,6 +91,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/sony/yuga_blobs/system/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/sony/yuga_blobs/system/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
+    vendor/sony/yuga_blobs/system/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+    vendor/sony/yuga_blobs/system/lib/hw/camera.sony.so:system/lib/hw/camera.sony.so \
     vendor/sony/yuga_blobs/system/lib/hw/copybit.msm8960.so:system/lib/hw/copybit.msm8960.so \
     vendor/sony/yuga_blobs/system/lib/hw/gralloc.msm8960.so:system/lib/hw/gralloc.msm8960.so \
     vendor/sony/yuga_blobs/system/lib/hw/hwcomposer.msm8960.so:system/lib/hw/hwcomposer.msm8960.so \
@@ -109,19 +111,29 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
     vendor/sony/yuga_blobs/system/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/sony/yuga_blobs/system/lib/libacdbloader.so:system/lib/libacdbloader.so \
+    vendor/sony/yuga_blobs/system/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/sony/yuga_blobs/system/lib/libaudcal.so:system/lib/libaudcal.so \
+    vendor/sony/yuga_blobs/system/lib/libc2dcolorconvert.so:system/lib/libc2dcolorconvert.so \
     vendor/sony/yuga_blobs/system/lib/libcsd-client.so:system/lib/libcsd-client.so \
     vendor/sony/yuga_blobs/system/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/sony/yuga_blobs/system/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/sony/yuga_blobs/system/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/sony/yuga_blobs/system/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/sony/yuga_blobs/system/lib/libexternal.so:system/lib/libexternal.so \
+    vendor/sony/yuga_blobs/system/lib/libgemini.so:system/lib/libgemini.so \
     vendor/sony/yuga_blobs/system/lib/libidl.so:system/lib/libidl.so \
+    vendor/sony/yuga_blobs/system/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
+    vendor/sony/yuga_blobs/system/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/sony/yuga_blobs/system/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
     vendor/sony/yuga_blobs/system/lib/libmemalloc.so:system/lib/libmemalloc.so \
+    vendor/sony/yuga_blobs/system/lib/libmercury.so:system/lib/libmercury.so \
     vendor/sony/yuga_blobs/system/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/yuga_blobs/system/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/sony/yuga_blobs/system/lib/libmm-abl.so:system/lib/libmm-abl.so \
+    vendor/sony/yuga_blobs/system/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/sony/yuga_blobs/system/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/sony/yuga_blobs/system/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/sony/yuga_blobs/system/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/sony/yuga_blobs/system/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/sony/yuga_blobs/system/lib/liboverlay.so:system/lib/liboverlay.so \
     vendor/sony/yuga_blobs/system/lib/libpin-cache.so:system/lib/libpin-cache.so \
