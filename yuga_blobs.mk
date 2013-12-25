@@ -112,15 +112,26 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/sony/yuga_blobs/system/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/yuga_blobs/system/lib/libadsprpc.so:system/lib/libadsprpc.so \
+    vendor/sony/yuga_blobs/system/lib/libals.so:system/lib/libals.so \
     vendor/sony/yuga_blobs/system/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/yuga_blobs/system/lib/libc2dcolorconvert.so:system/lib/libc2dcolorconvert.so \
+    vendor/sony/yuga_blobs/system/lib/libcald_client.so:system/lib/libcald_client.so \
+    vendor/sony/yuga_blobs/system/lib/libcald_hal.so:system/lib/libcald_hal.so \
+    vendor/sony/yuga_blobs/system/lib/libcald_imageutil.so:system/lib/libcald_imageutil.so \
+    vendor/sony/yuga_blobs/system/lib/libcald_pal.so:system/lib/libcald_pal.so \
+    vendor/sony/yuga_blobs/system/lib/libcald_server.so:system/lib/libcald_server.so \
+    vendor/sony/yuga_blobs/system/lib/libcald_util.so:system/lib/libcald_util.so \
+    vendor/sony/yuga_blobs/system/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
+    vendor/sony/yuga_blobs/system/lib/libcameralight.so:system/lib/libcameralight.so \
     vendor/sony/yuga_blobs/system/lib/libcsd-client.so:system/lib/libcsd-client.so \
     vendor/sony/yuga_blobs/system/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/sony/yuga_blobs/system/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/sony/yuga_blobs/system/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/sony/yuga_blobs/system/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/sony/yuga_blobs/system/lib/libexternal.so:system/lib/libexternal.so \
+    vendor/sony/yuga_blobs/system/lib/libface.so:system/lib/libface.so \
     vendor/sony/yuga_blobs/system/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/sony/yuga_blobs/system/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/yuga_blobs/system/lib/libidl.so:system/lib/libidl.so \
     vendor/sony/yuga_blobs/system/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/sony/yuga_blobs/system/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
@@ -130,13 +141,25 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/yuga_blobs/system/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/sony/yuga_blobs/system/lib/libmm-abl.so:system/lib/libmm-abl.so \
+    vendor/sony/yuga_blobs/system/lib/libmmcamera_3a_legacy.so:system/lib/libmmcamera_3a_legacy.so \
+    vendor/sony/yuga_blobs/system/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
+    vendor/sony/yuga_blobs/system/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
+    vendor/sony/yuga_blobs/system/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
     vendor/sony/yuga_blobs/system/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/sony/yuga_blobs/system/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
+    vendor/sony/yuga_blobs/system/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
+    vendor/sony/yuga_blobs/system/lib/libmmcamera_tintless_algo.so:system/lib/libmmcamera_tintless_algo.so \
+    vendor/sony/yuga_blobs/system/lib/libmmcamera_tintless_wrapper.so:system/lib/libmmcamera_tintless_wrapper.so \
+    vendor/sony/yuga_blobs/system/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/sony/yuga_blobs/system/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/sony/yuga_blobs/system/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/sony/yuga_blobs/system/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/sony/yuga_blobs/system/lib/libnetmgr.so:system/lib/libnetmgr.so \
+    vendor/sony/yuga_blobs/system/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/yuga_blobs/system/lib/liboverlay.so:system/lib/liboverlay.so \
     vendor/sony/yuga_blobs/system/lib/libpin-cache.so:system/lib/libpin-cache.so \
+    vendor/sony/yuga_blobs/system/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
+    vendor/sony/yuga_blobs/system/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/sony/yuga_blobs/system/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/sony/yuga_blobs/system/lib/libqdMetaData.so:system/lib/libqdMetaData.so \
     vendor/sony/yuga_blobs/system/lib/libqdi.so:system/lib/libqdi.so \
@@ -149,6 +172,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/lib/libqservice.so:system/lib/libqservice.so \
     vendor/sony/yuga_blobs/system/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/sony/yuga_blobs/system/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
+    vendor/sony/yuga_blobs/system/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/yuga_blobs/system/lib/libta.so:system/lib/libta.so \
     vendor/sony/yuga_blobs/system/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
     vendor/sony/yuga_blobs/system/lib/libvirtual.so:system/lib/libvirtual.so \
