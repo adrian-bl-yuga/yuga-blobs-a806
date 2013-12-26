@@ -97,6 +97,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/lib/hw/gralloc.msm8960.so:system/lib/hw/gralloc.msm8960.so \
     vendor/sony/yuga_blobs/system/lib/hw/hwcomposer.msm8960.so:system/lib/hw/hwcomposer.msm8960.so \
     vendor/sony/yuga_blobs/system/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
+    vendor/sony/yuga_blobs/system/lib/libMPU3050.so:system/lib/libMPU3050.so \
     vendor/sony/yuga_blobs/system/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/sony/yuga_blobs/system/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
     vendor/sony/yuga_blobs/system/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
@@ -140,6 +141,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/lib/libmemalloc.so:system/lib/libmemalloc.so \
     vendor/sony/yuga_blobs/system/lib/libmercury.so:system/lib/libmercury.so \
     vendor/sony/yuga_blobs/system/lib/libmiscta.so:system/lib/libmiscta.so \
+    vendor/sony/yuga_blobs/system/lib/libmllite.so:system/lib/libmllite.so \
+    vendor/sony/yuga_blobs/system/lib/libmlplatform.so:system/lib/libmlplatform.so \
     vendor/sony/yuga_blobs/system/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/sony/yuga_blobs/system/lib/libmm-abl.so:system/lib/libmm-abl.so \
     vendor/sony/yuga_blobs/system/lib/libmmcamera_3a_legacy.so:system/lib/libmmcamera_3a_legacy.so \
@@ -155,6 +158,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/sony/yuga_blobs/system/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/sony/yuga_blobs/system/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
+    vendor/sony/yuga_blobs/system/lib/libmpl.so:system/lib/libmpl.so \
     vendor/sony/yuga_blobs/system/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/sony/yuga_blobs/system/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/yuga_blobs/system/lib/liboverlay.so:system/lib/liboverlay.so \
@@ -172,6 +176,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/sony/yuga_blobs/system/lib/libqservice.so:system/lib/libqservice.so \
     vendor/sony/yuga_blobs/system/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
+    vendor/sony/yuga_blobs/system/lib/libsensors_akm8963.so:system/lib/libsensors_akm8963.so \
     vendor/sony/yuga_blobs/system/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/sony/yuga_blobs/system/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/yuga_blobs/system/lib/libta.so:system/lib/libta.so \
