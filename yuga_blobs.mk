@@ -136,6 +136,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/sony/yuga_blobs/system/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/sony/yuga_blobs/system/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
+    vendor/sony/yuga_blobs/system/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/sony/yuga_blobs/system/lib/libmemalloc.so:system/lib/libmemalloc.so \
     vendor/sony/yuga_blobs/system/lib/libmercury.so:system/lib/libmercury.so \
     vendor/sony/yuga_blobs/system/lib/libmiscta.so:system/lib/libmiscta.so \
