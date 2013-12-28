@@ -90,7 +90,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
     vendor/sony/yuga_blobs/system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/sony/yuga_blobs/system/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
-    vendor/sony/yuga_blobs/system/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/sony/yuga_blobs/system/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/sony/yuga_blobs/system/lib/hw/camera.sony.so:system/lib/hw/camera.sony.so \
     vendor/sony/yuga_blobs/system/lib/hw/copybit.msm8960.so:system/lib/hw/copybit.msm8960.so \
