@@ -163,7 +163,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/lib/liboverlay.so:system/lib/liboverlay.so \
     vendor/sony/yuga_blobs/system/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/yuga_blobs/system/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
-    vendor/sony/yuga_blobs/system/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/sony/yuga_blobs/system/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/sony/yuga_blobs/system/lib/libqdMetaData.so:system/lib/libqdMetaData.so \
     vendor/sony/yuga_blobs/system/lib/libqdi.so:system/lib/libqdi.so \
