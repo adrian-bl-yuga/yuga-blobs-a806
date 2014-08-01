@@ -180,6 +180,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/lib/libta.so:system/lib/libta.so \
     vendor/sony/yuga_blobs/system/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
     vendor/sony/yuga_blobs/system/lib/libvirtual.so:system/lib/libvirtual.so \
+    vendor/sony/yuga_blobs/system/lib/modules/radio-iris-transport.ko:system/lib/modules/radio-iris-transport.ko \
     vendor/sony/yuga_blobs/system/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
     vendor/sony/yuga_blobs/system/vendor/camera/KMO08BN0_IMX111.dat:system/vendor/camera/KMO08BN0_IMX111.dat \
     vendor/sony/yuga_blobs/system/vendor/camera/LGI02BN0.dat:system/vendor/camera/LGI02BN0.dat \
