@@ -127,6 +127,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/sony/yuga_blobs/system/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/sony/yuga_blobs/system/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
+    vendor/sony/yuga_blobs/system/lib/libdsnetutils.so:system/lib/libdsnetutils.so \
     vendor/sony/yuga_blobs/system/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/sony/yuga_blobs/system/lib/libexternal.so:system/lib/libexternal.so \
     vendor/sony/yuga_blobs/system/lib/libface.so:system/lib/libface.so \
