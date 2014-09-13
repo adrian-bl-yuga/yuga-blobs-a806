@@ -95,7 +95,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/lib/hw/copybit.msm8960.so:system/lib/hw/copybit.msm8960.so \
     vendor/sony/yuga_blobs/system/lib/hw/gralloc.msm8960.so:system/lib/hw/gralloc.msm8960.so \
     vendor/sony/yuga_blobs/system/lib/hw/hwcomposer.msm8960.so:system/lib/hw/hwcomposer.msm8960.so \
-    vendor/sony/yuga_blobs/system/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
     vendor/sony/yuga_blobs/system/lib/libMPU3050.so:system/lib/libMPU3050.so \
     vendor/sony/yuga_blobs/system/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/sony/yuga_blobs/system/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
@@ -206,8 +205,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/vendor/camera/SOI13BS9.dat:system/vendor/camera/SOI13BS9.dat \
     vendor/sony/yuga_blobs/system/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
     vendor/sony/yuga_blobs/system/vendor/camera/product.dat:system/vendor/camera/product.dat \
-    vendor/sony/yuga_blobs/system/vendor/firmware/libpn544_fw_c2.so:system/vendor/firmware/libpn544_fw_c2.so \
-    vendor/sony/yuga_blobs/system/vendor/firmware/libpn544_fw_c3.so:system/vendor/firmware/libpn544_fw_c3.so \
     vendor/sony/yuga_blobs/system/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/sony/yuga_blobs/system/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/sony/yuga_blobs/system/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
