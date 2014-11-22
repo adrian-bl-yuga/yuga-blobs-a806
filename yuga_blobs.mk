@@ -92,7 +92,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/sony/yuga_blobs/system/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/sony/yuga_blobs/system/lib/hw/camera.sony.so:system/lib/hw/camera.sony.so \
-    vendor/sony/yuga_blobs/system/lib/hw/copybit.msm8960.so:system/lib/hw/copybit.msm8960.so \
     vendor/sony/yuga_blobs/system/lib/libMPU3050.so:system/lib/libMPU3050.so \
     vendor/sony/yuga_blobs/system/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/sony/yuga_blobs/system/lib/libacdbloader.so:system/lib/libacdbloader.so \
@@ -155,7 +154,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/yuga_blobs/system/lib/libta.so:system/lib/libta.so \
     vendor/sony/yuga_blobs/system/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
-    vendor/sony/yuga_blobs/system/lib/libvirtual.so:system/lib/libvirtual.so \
     vendor/sony/yuga_blobs/system/lib/modules/radio-iris-transport.ko:system/lib/modules/radio-iris-transport.ko \
     vendor/sony/yuga_blobs/system/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
     vendor/sony/yuga_blobs/system/vendor/camera/KMO08BN0_IMX111.dat:system/vendor/camera/KMO08BN0_IMX111.dat \
