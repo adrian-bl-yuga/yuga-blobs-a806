@@ -114,12 +114,15 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/sony/yuga_blobs/system/lib/libface.so:system/lib/libface.so \
     vendor/sony/yuga_blobs/system/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/sony/yuga_blobs/system/lib/libgeofence.so:system/lib/libgeofence.so \
     vendor/sony/yuga_blobs/system/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/yuga_blobs/system/lib/libidl.so:system/lib/libidl.so \
     vendor/sony/yuga_blobs/system/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/sony/yuga_blobs/system/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
+    vendor/sony/yuga_blobs/system/lib/libizat_core.so:system/lib/libizat_core.so \
     vendor/sony/yuga_blobs/system/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
     vendor/sony/yuga_blobs/system/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/sony/yuga_blobs/system/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/sony/yuga_blobs/system/lib/libmercury.so:system/lib/libmercury.so \
     vendor/sony/yuga_blobs/system/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/yuga_blobs/system/lib/libmllite.so:system/lib/libmllite.so \
