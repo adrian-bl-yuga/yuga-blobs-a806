@@ -4,7 +4,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/bin/ks:system/bin/ks \
     vendor/sony/yuga_blobs/system/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/yuga_blobs/system/bin/qcks:system/bin/qcks \
-    vendor/sony/yuga_blobs/system/bin/qmiproxy:system/bin/qmiproxy \
     vendor/sony/yuga_blobs/system/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/yuga_blobs/system/bin/qseecomd:system/bin/qseecomd \
     vendor/sony/yuga_blobs/system/bin/rmt_storage:system/bin/rmt_storage \
@@ -110,7 +109,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/sony/yuga_blobs/system/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/sony/yuga_blobs/system/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
-    vendor/sony/yuga_blobs/system/lib/libdsnetutils.so:system/lib/libdsnetutils.so \
     vendor/sony/yuga_blobs/system/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/sony/yuga_blobs/system/lib/libface.so:system/lib/libface.so \
     vendor/sony/yuga_blobs/system/lib/libgemini.so:system/lib/libgemini.so \
@@ -185,14 +183,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/sony/yuga_blobs/system/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/sony/yuga_blobs/system/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
-    vendor/sony/yuga_blobs/system/vendor/lib/egl/libGLESv2S3D_adreno.so:system/vendor/lib/egl/libGLESv2S3D_adreno.so \
     vendor/sony/yuga_blobs/system/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/sony/yuga_blobs/system/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/sony/yuga_blobs/system/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/sony/yuga_blobs/system/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/sony/yuga_blobs/system/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
-    vendor/sony/yuga_blobs/system/vendor/lib/libc2d2_a3xx.so:system/vendor/lib/libc2d2_a3xx.so \
-    vendor/sony/yuga_blobs/system/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
+    vendor/sony/yuga_blobs/system/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/sony/yuga_blobs/system/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/sony/yuga_blobs/system/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/sony/yuga_blobs/system/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
