@@ -199,5 +199,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/sony/yuga_blobs/system/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/sony/yuga_blobs/system/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
+    vendor/sony/yuga_blobs/system/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/sony/yuga_blobs/system/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
 
